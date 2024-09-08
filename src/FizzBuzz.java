@@ -5,6 +5,10 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
+        dofizz();
+    }
+
+    private static void dofizz() {
         for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
@@ -14,7 +18,7 @@ class FizzBuzz {
             // Print our appropriate result.
             if (divisibleBy3 && divisibleBy5) {
 
-                System.out.println("Fizz Buzz");
+                System.out.println("FizzBuzz");
 
             } else if (divisibleBy3) {
 
@@ -22,7 +26,7 @@ class FizzBuzz {
 
             } else if (divisibleBy5) {
 
-                System.out.println("Buzz");
+                System.out.println("buzz");
 
             } else {
 
